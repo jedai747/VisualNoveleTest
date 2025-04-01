@@ -1,0 +1,89 @@
+{
+   "Frames":[
+      {
+         "Id":1,
+         "Type":"Dialogue",
+         "CharacterName":"Alex",
+         "CharacterSprite":"Characters/Sprites/Alex",
+         "IsLeft":true,
+         "Text":"Where am I? This isn't Earth..."
+      },
+      {
+         "Id":2,
+         "Type":"Dialogue",
+         "CharacterName":"Nova",
+         "CharacterSprite":"Characters/Sprites/Nova",
+         "IsLeft":false,
+         "Text":"Welcome, Alex. You are now among the stars."
+      },
+      {
+         "Id":3,
+         "Type":"Text",
+         "Text":"Alex floated in the cosmic void, surrounded by glowing planets."
+      },
+      {
+         "Id":4,
+         "Type":"Dialogue",
+         "CharacterName":"Nova",
+         "CharacterSprite":"Characters/Sprites/Nova",
+         "IsLeft":false,
+         "Text":"Each planet holds a different fate. Choose wisely."
+      },
+      {
+         "Id":5,
+         "Type":"Dialogue",
+         "CharacterName":"Alex",
+         "CharacterSprite":"Characters/Sprites/Alex",
+         "IsLeft":true,
+         "Text":"Alright, Nova. I will trust my instincts."
+      },
+      {
+         "Id":6,
+         "Type":"Text",
+         "Text":"Alex took a deep breath and prepared for his jump."
+      },
+      {
+         "Id":7,
+         "Type":"Choice",
+         "Text":"Which planet will Alex jump to?",
+         "Options":[
+            {
+               "Text":"The Red Planet",
+               "NextFrameId":8
+            },
+            {
+               "Text":"The Shiny Crystal Planet",
+               "NextFrameId":9
+            },
+            {
+               "Text":"The Dark Swirling Planet",
+               "NextFrameId":10
+            },
+            {
+               "Text":"The Tiny Green Planet",
+               "NextFrameId":11
+            }
+         ]
+      },
+      {
+         "Id":8,
+         "Type":"Final",
+         "Text":"On the Red Planet, Alex found a colony of friendly aliens who helped him survive."
+      },
+      {
+         "Id":9,
+         "Type":"Final",
+         "Text":"The Crystal Planet was a giant trap. Nova's voice faded as Alex was sealed inside."
+      },
+      {
+         "Id":10,
+         "Type":"Final",
+         "Text":"The Dark Planet pulled Alex into a black hole. Nova watched silently from afar."
+      },
+      {
+         "Id":11,
+         "Type":"Final",
+         "Text":"On the Tiny Green Planet, Alex found Nova waiting. Together, they created a peaceful haven."
+      }
+   ]
+}
